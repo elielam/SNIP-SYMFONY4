@@ -16,15 +16,11 @@ Initial Symfony 4 Project
       "symfony/webpack-encore-pack": "^1.0",
       "symfony/yaml": "^4.0"
 
-# # # # # # # # # #
-
 # WEBPACK ENCORE
 
  webpack.config.js
  Get assets in ./assets and build them in ./public/build
  Do SCSS compilation
- 
-# # # # # # # # # # #
 
 # ASSETS
 
@@ -32,5 +28,3 @@ Initial Symfony 4 Project
  Font awesome 4.7.1
 
  Installed with yarn in node_module dir , maybe you will need to update yarn.
-
-# # # # # # # # # # #
