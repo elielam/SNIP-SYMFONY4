@@ -5,11 +5,13 @@ Initial Symfony 4 Project
 # COMPOSER BUNDLE
 
         - devDependencies :
+        
            "symfony/dotenv": "^4.0"
            "symfony/profiler-pack": "^1.0"
            "symfony/web-server-bundle": "^4.0"
            
         - dependencies :
+        
            "php": "^7.1.3"
            "ext-iconv": "*"
            "sensio/framework-extra-bundle": "^5.1"
@@ -26,16 +28,18 @@ Initial Symfony 4 Project
 # YARN (NODE_MODULES)
 
          - devDependencies : 
+         
             "@symfony/webpack-encore": "^0.17.0"
             "node-sass": "^4.7.2"
             "sass-loader": "^6.0.6"
             "webpack-notifier": "^1.5.0"
           
           - dependencies : 
-            "bootstrap": "4.0.0-beta.2"
-            "font-awesome": "^4.7.0"
-            "jquery": "^3.2.1"
-            "popper.js": "1.12.3"
+          
+             "bootstrap": "4.0.0-beta.2"
+             "font-awesome": "^4.7.0"
+             "jquery": "^3.2.1"
+             "popper.js": "1.12.3"
 
 # WEBPACK ENCORE
 
