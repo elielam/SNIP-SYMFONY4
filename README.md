@@ -46,14 +46,28 @@ Initial Symfony 4 Project
  - See ./webpack.config.js for configuration
  - Get assets in ./assets and build them in ./public/build
  - Do SCSS compilation
+ 
+ For compile and build assets run
+ 
+ "- yarn run encore dev" // Build dev assets (less minimize , faster compilation)
+ 
+ "- yarn run encore production" // Build prod assets (full minimize)
 
 # ASSETS
 
- - Bootstrap v4 beta 2
- - Font awesome 4.7.1
- - app.scss
- - app.js
+ "app.scss -> include Bootstrap.scss & Font-awesome"
+ "app.js -> include Bootstrap.js & define Popper.js"
  
  # GET STARTED
  
+ - Clone the project in your project folder.
+ - Be sure php >= 7.0 is installed in your local environnment (path).
+ - In your symfony project folder run :
+ "php composer.phar update"
+ - It will download all vendor.
+ - Then be sure nodeJs is installed on your computer with yarn and run in the same folder :
+ "yarn install"
+ - Compile and build assets with one of the command defined in WEBPACK ENCORE SECTION.
  
+ - Start local web server with :
+ "YourSymfonyFolder/: php bin/console run:server "
