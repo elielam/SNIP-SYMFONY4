@@ -16,6 +16,14 @@ Initial Symfony 4 Project
         "symfony/twig-bundle": "^4.0",
         "symfony/webpack-encore-pack": ">=1.0",
         "symfony/yaml": "^4.0"
+        
+# NODE_MODULE
+
+ - WebpackEncore
+ - Bootstrap v4 beta 2
+ - Font awesome 4.7.1
+ - JQuery
+ - Popper.js
 
 # WEBPACK ENCORE
 
@@ -25,12 +33,10 @@ Initial Symfony 4 Project
 
 # ASSETS
 
- - Bootstrap 4 beta 2
+ - Bootstrap v4 beta 2
  - Font awesome 4.7.1
  - app.scss
  - app.js
-
- Installed with yarn in node_module dir , maybe you will need to update yarn.
  
  # GET STARTED
  
