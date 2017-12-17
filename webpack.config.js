@@ -23,6 +23,7 @@ Encore
     // JQuery
     .autoProvidejQuery()
 
+    // Jquery & Popper.js var for Bootstrap
     .autoProvideVariables({
         $: 'jquery',
         jQuery: 'jquery',
