@@ -18,14 +18,15 @@ Initial Symfony 4 Project
 
 # WEBPACK ENCORE
 
- - webpack.config.js
+ - See ./webpack.config.js for configuration
  - Get assets in ./assets and build them in ./public/build
- 
- Do SCSS compilation
+ - Do SCSS compilation
 
 # ASSETS
 
- - Bootstrap 4 béta 2
+ - Bootstrap 4 beta 2
  - Font awesome 4.7.1
+ - app.scss
+ - app.js
 
  Installed with yarn in node_module dir , maybe you will need to update yarn.
