@@ -23,6 +23,13 @@ Encore
     // JQuery
     .autoProvidejQuery()
 
+    .autoProvideVariables({
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery',
+        Popper: ['popper.js', 'default'],
+    })
+
     // Nettoyage du dossier /build a chaque build
     .cleanupOutputBeforeBuild()
     // Active les notifications dans cmd
