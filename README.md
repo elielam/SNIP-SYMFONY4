@@ -30,3 +30,7 @@ Initial Symfony 4 Project
  - app.js
 
  Installed with yarn in node_module dir , maybe you will need to update yarn.
+ 
+ # GET STARTED
+ 
+ 
