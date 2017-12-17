@@ -61,8 +61,8 @@ Initial Symfony 4 Project
 
 # ASSETS
 
- - app.scss -> include Bootstrap.scss & Font-awesome"
- - app.js -> include Bootstrap.js & define Popper.js"
+ - app.scss -> include Bootstrap.scss & Font-awesome
+ - app.js -> include Bootstrap.js & define Popper.js
  
  # GET STARTED
  
