@@ -15,7 +15,7 @@ use Symfony\Component\HttpFoundation\Response;
 class BaseController extends Controller
 {
     /**
-     * @Route("/home/")
+     * @Route("/")
      */
     public function home() {
 
