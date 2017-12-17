@@ -49,14 +49,20 @@ Initial Symfony 4 Project
  
  For compile and build assets run
  
- "- yarn run encore dev" // Build dev assets (less minimize , faster compilation)
+ yarn run encore dev
  
- "- yarn run encore production" // Build prod assets (full minimize)
+ - Build dev assets (less minimize , faster compilation)
+ 
+ or
+ 
+ <yarn run encore production>
+        
+ - Build prod assets (full minimize)
 
 # ASSETS
 
- "app.scss -> include Bootstrap.scss & Font-awesome"
- "app.js -> include Bootstrap.js & define Popper.js"
+ - app.scss -> include Bootstrap.scss & Font-awesome"
+ - app.js -> include Bootstrap.js & define Popper.js"
  
  # GET STARTED
  
