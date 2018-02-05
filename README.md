@@ -55,7 +55,7 @@ Initial Symfony 4 Project
  
  or
  
- <yarn run encore production>
+ yarn run encore production
         
  - Build prod assets (full minimize)
 
@@ -76,4 +76,4 @@ Initial Symfony 4 Project
  - Compile and build assets with one of the command defined in WEBPACK ENCORE SECTION.
  
  - Start local web server with :
- "YourSymfonyFolder/: php bin/console run:server "
+ "YourSymfonyFolder/: php bin/console s:r "
